@@ -19,6 +19,7 @@
 <constant name="struts.action.extension" value="action,do,vnb"/>
 <constant name="struts.i18n.reload" value="true"/>
 <constant name="struts.configuration.xml" value="true"/>
+<constant name="struts.custom.i18n.resources" value="dbinfo"/>
 
 
 	<package name="default" extends="struts-default">
