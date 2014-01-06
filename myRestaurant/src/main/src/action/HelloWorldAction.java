@@ -1,7 +1,7 @@
 package main.src.action;
 
 import com.opensymphony.xwork2.ActionSupport;
-//可以么，还行吧
+//可以么，还行吧，啊哈
 public class HelloWorldAction extends ActionSupport{
 	private static final long serialVersionUID = 1L;
 	String msm="happyEnding";
