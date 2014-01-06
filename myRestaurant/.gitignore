@@ -1,6 +1,6 @@
 /myRestaurant/WebRoot/WEB-INF/classes/
 *.class
 /.settings
-.project
+myRestaurant.project
 .mymetadata
 .classpath
