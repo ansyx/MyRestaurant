@@ -4,7 +4,7 @@ import java.util.ResourceBundle;
 
 public class MessageUtils {
 
-	public String getMessageFromDbInfo(String key){
+	public static String getMessageFromDbInfo(String key){
 		
 		ResourceBundle rb=ResourceBundle.getBundle("main.resource.dbinfo");
 		

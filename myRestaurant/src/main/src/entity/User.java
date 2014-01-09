@@ -1,29 +1,27 @@
 package main.src.entity;
 
-import java.util.Date;
-
 public class User {
 String id;
-String username;
+String user_name;
 String login_name;
 String password;
 String gender;
+String portrait;
 String email;
 String qq;
 String phone;
+String taste;
 String authority;
-Date create_time;
+String add_user_id;
+String last_login_ip;
+String login_flag;
+String create_date;
+String create_time;
 public String getId() {
 	return id;
 }
 public void setId(String id) {
 	this.id = id;
-}
-public String getUsername() {
-	return username;
-}
-public void setUsername(String username) {
-	this.username = username;
 }
 public String getLogin_name() {
 	return login_name;
@@ -67,10 +65,53 @@ public String getAuthority() {
 public void setAuthority(String authority) {
 	this.authority = authority;
 }
-public Date getCreate_time() {
+public String getCreate_time() {
 	return create_time;
 }
-public void setCreate_time(Date create_time) {
+public void setCreate_time(String create_time) {
 	this.create_time = create_time;
+}
+
+public String getAdd_user_id() {
+	return add_user_id;
+}
+public void setAdd_user_id(String add_user_id) {
+	this.add_user_id = add_user_id;
+}
+public String getLast_login_ip() {
+	return last_login_ip;
+}
+public void setLast_login_ip(String last_login_ip) {
+	this.last_login_ip = last_login_ip;
+}
+public String getCreate_date() {
+	return create_date;
+}
+public void setCreate_date(String create_date) {
+	this.create_date = create_date;
+}
+public String getPortrait() {
+	return portrait;
+}
+public void setPortrait(String portrait) {
+	this.portrait = portrait;
+}
+public String getLogin_flag() {
+	return login_flag;
+}
+public void setLogin_flag(String login_flag) {
+	this.login_flag = login_flag;
+}
+public String getTaste() {
+	return taste;
+}
+public void setTaste(String taste) {
+	this.taste = taste;
+}
+public String getUser_name() {
+	return user_name;
+}
+public void setUser_name(String user_name) {
+	this.user_name = user_name;
 } 
 }
